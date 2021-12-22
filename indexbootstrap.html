@@ -1,59 +1,71 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="./Css/estilos.css">
-    <title>Centro Terapeutico Interdisciplinario</title>
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Martel:wght@800&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./sass/main.css">
+<title>Centro Terapeutico Interdisciplinario</title>
   </head> 
   
   
   <body class="body">
     
-    <header class= "header">
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="header__image" src="Imagenes/CENTRO TERAPÉUTICO.png" alt="logotipo" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></s
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <ul class="navbar-nav align-items-center">
-              <li class="nav-item">
-              <a class="nav-link ms-3 active" aria-current="page" href="indexbootstrap.html"">Inicio</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link ms-3 " href="Centro Terapeutico Interdisciplinario/Sobre Nosotros.html">Sobre Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3" href="Centro Terapeutico Interdisciplinario/Terapias.html">Terapias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3" href="Centro Terapeutico Interdisciplinario/Programemos una cita.html">Programemos una cita</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3" href="/Centro Terapeutico Interdisciplinario/Contacto.html">Contacto</a>
-            </li>
-              </ul>
-            </div>
-            </div>
+    <header class="header">
+    <nav class="navbar  navbar-light bg-light header__nav">  
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="header__image" src="/Imagenes/CENTRO TERAPÉUTICO.png" alt="logotipo" /></a>
+        <button class="navbar-toggler align-content-center header__button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <ul  class="navbar-nav header__ul navbar-nav align-items-center">
+            <li class="nav-item header__item">
+            <a class="nav-link ms-3 active header__link" aria-current="page" href="./indexbootstrap.html"">Inicio</a>
+          </li> 
+          <li class="nav-item header__item">
+            <a class="nav-link ms-3 header__link" href="./Centro Terapeutico Interdisciplinario/Sobre Nosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item header__item">
+            <a class="nav-link ms-3 header__link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Terapias</a>
+          </li>
+          <li class="nav-item header__item">
+            <a class="nav-link ms-3 header__link" href="./Centro Terapeutico Interdisciplinario/Programemos una cita.html">Programemos una cita</a>
+          </li>
+          <li class="nav-item header__item">
+            <a class="nav-link ms-3 header__link" href="./Centro Terapeutico Interdisciplinario/Contacto.html">Contacto</a>
+          </li>
+            </ul>
+          </div>
           </div>
         </div>
-      </nav>
-      </header>
-      
-      <div class= "container-fluid">
-        <hr class="division"> 
       </div>
+    </nav>
+      
+  
+    </header>
+     
+    <div class= "container-fluid">
+      <hr class="division"> 
+    </div>
 
       <main class="main">
-     
+        <div class="container main__container">   
       
-      <div class="container-fluid mt-5 mb-5">
+      <div class="container-fluid mt-5 mb-5 main__subcontainer">
         <h1 class="main__h1"  data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="1500">Centro Interdisciplinario Terapéutico</h1> 
@@ -63,7 +75,7 @@
 
                                                      
 <section class="main__carousel">
-  <div class="container-fluid">
+  <div class="container-fluid main__subcontainer">
   <div class="row">
 
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -98,44 +110,53 @@
 
   
  <section  class="main__section"> 
-  <div class="responsivemain" class="container my-5 px-4">
-    <div   class="row mt-5 bg-success p-2 text-dark bg-opacity-25  justify-content-center align-content-center">
-      <div class="responsivemain" class="col-md-4 my-4 px-4" >
-        <div>
-      <h2 class="h2">SERVICIOS</h2>
+  <div  class="container my-5 px-4 main__responsive2 main__subcontainer">
+    <div   class="row mt-5   justify-content-center align-content-center">
+      <div  class="main__responsive2 col-md-4 my-4 px-4" >
+        
+      <h2 class="main__h2">SERVICIOS</h2> 
        <!--menù linkeable con las terapias que se ofrecen-->
-       <nav id="navbar-example2 " class="navbar navbar-light bg-light px-3 my-5">
-        <a class="navbar-brand" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Terapias</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Grupal</a>
+       <nav id="navbar-example2 " class="navbar navbar-light bg-light px-3 my-5 main__nav">
+        <a class="navbar-brand main__navtitulo" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Terapias</a>
+        <ul class="main__ul" class="nav nav-pills">
+          <li class="nav-item main__item">
+            <a class="nav-link main__link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Grupal</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Pareja</a>
+          <li class="nav-item main__item">
+            <a class="nav-link main__link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Pareja</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown main__item">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Individual</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Niños</a></li>
-              <li><a class="dropdown-item" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Adolescentes</a></li>
+              <li><a class="dropdown-item main__link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Niños</a></li>
+              <li><a class="dropdown-item main__link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Adolescentes</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Adultos</a></li>
+              <li><a class="dropdown-item main__link" href="./Centro Terapeutico Interdisciplinario/Terapias.html">Adultos</a></li>
             </ul>
           </li>
         </ul>
       </nav>
+      </div>
+    
+    
+    
       
       
       <article class="main__article">
         
-      <div class="articulo mb-6">
+      <div class="articulo mb-6 container main__subcontainer">
         <p class="main__parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto debitis, porro eius esse rerum minus! Sunt magni dolorem suscipit, rem beatae dicta excepturi recusandae autem incidunt, voluptates dolore laudantium est?
 Iure debitis eum ea numquam sequi facere excepturi esse maxime delectus laboriosam architecto, doloremque harum possimus minus natus consequatur pariatur at repudiandae nam cum optio illo temporibus amet. Iste, aperiam?
 Fugiat, at ea obcaecati iust</p></div>
     </div>
        </article>
+      </section>
 
-        <div class="responsivemain2"class="col-md-4 my-4 px-4">
+
+      <section class="main__section">
+
+
+        <div class="container main__subcontainer col-md-4 my-4 px-4 main__responsive2">
         
           <h2 class="main__h2">Información complementaria</h2>
         
@@ -145,9 +166,12 @@ Fugiat, at ea obcaecati iust</p></div>
           Molestiae praesentium obcaecati eos maiores nesciunt, totam animi, eveniet vero alias nihil unde nulla a. Eum dicta autem dolor iste beatae porro similique! Recusandae, provident doloribus praesentium saepe consequatur aut.
   </p></article>
         </div>
-    
+      </section>
 
-      <div class="responsivemain2"class="col-md-4 my-4 px-4">
+
+    <section class="main__section">
+
+      <div class="container main__subcontainer col-md-4 my-4 px-4 main__responsive2">
       <h2 class="main__h2">Consultorio Virtual</h2>
       <p class="main__parrafo">Desde Centro Interdisciplinario Terapéutico creemos en fomentar la accesibilidad de la Salud Mental.
         Por ello, contamos con personal capacitado y disponible para realizar atención personalizada y de forma virtual.
@@ -155,11 +179,12 @@ Fugiat, at ea obcaecati iust</p></div>
         más allá del lugar en el que te encuentres.
         Basta con acceso a Internet y la predispocisión necesaria para coordinar una cita
       </p>
-     <div class="button d-flex justify-content-center"><a class="btn btn-primary" href="./Centro Terapeutico Interdisciplinario/Programemos una cita.html" role="button">Hagamos una Cita!</a></div>
+  </div>
     </div>
-    </div>
+    <div class="button d-flex justify-content-center"><a class="btn btn-primary main__button mb-3" href="./Centro Terapeutico Interdisciplinario/Programemos una cita.html" role="button">Hagamos una Cita!</a></div>
   </div>
   </section>
+</div>  
 
 </main>
 
@@ -167,23 +192,23 @@ Fugiat, at ea obcaecati iust</p></div>
  
  
  <footer class="footer">
-  <nav class="navbar navbar-light width 100%" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-light width 100% footer__nav" >
 
     <div class="container-fluid justify-content-center">
-      <a class="navbar-brand" href="#"><img class="header__image" src="Imagenes/CENTRO TERAPÉUTICO.png" alt="logotipo" /></a>
-      <button class="navbar-toggler align-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#"><img class="footer__image" src="Imagenes/CENTRO TERAPÉUTICO.png" alt="logotipo" /></a>
+      <button class="navbar-toggler align-content-center footer__button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <ul class="navbar-nav align-items-center">
-          <li class="nav-item">
-          <a class="nav-link ms-3 active" aria-current="page" href="Centro Terapeutico Interdisciplinario/Contacto.html"">E-mail<a>
+        <ul class="navbar-nav align-items-center footer__ul">
+          <li class="nav-item footer__item">
+          <a class="nav-link ms-3 active footer__link" aria-current="page" href="Centro Terapeutico Interdisciplinario/Contacto.html"">E-mail<a>
         </li> 
-        <li class="nav-item">
-          <a class="nav-link ms-3 " href="Centro Terapeutico Interdisciplinario/Contacto.html">Teléfono</a>
+        <li class="nav-item footer__item">
+          <a class="nav-link ms-3 footer__link" href="Centro Terapeutico Interdisciplinario/Contacto.html">Teléfono</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link ms-3 " href="Centro Terapeutico Interdisciplinario/medios de pago.html">Medios de Pago</a>
+        <li class="nav-item footer__item">
+          <a class="nav-link ms-3 footer__link" href="Centro Terapeutico Interdisciplinario/medios de pago.html">Medios de Pago</a>
         </li>
           </ul>
         </div>
@@ -200,9 +225,12 @@ Fugiat, at ea obcaecati iust</p></div>
 
 
 
+<!--SCRIPT ANIMACIONES-->
 
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
     
     <!--SCRIPT DE JS-->

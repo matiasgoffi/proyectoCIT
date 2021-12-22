@@ -1,0 +1,12 @@
+@import "./vars";
+
+@media (min-width: 768px){ 
+    .main__responsive { 
+        width: 75%;
+        margin-bottom: 4rem;
+        margin-left: 6rem;
+     }
+     .main__responsive2{
+         width: 100% ;
+     }
+    }
