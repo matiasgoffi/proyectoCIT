@@ -2,25 +2,25 @@
 
 .main{
 
-   background-color: "$color-secundario";
+background-color: $color-secundario;
    
    &__h1{ 
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: "$padding-especifico";
-    margin-top: "$margin-especifico";
+    padding: $padding-especifico;
+    margin-top: $margin-especifico;
     background-size: 15px;
    }
    &__carousel{ 
     
-       padding: "$padding-especifico";
+       padding: $padding-especifico;
    }
 
-   &__section{
-       background-color: "$color-terciario";
-       margin: "$margin-general";
-       padding: "$padding-especifico";
+   &__section {
+       background-color: $color-terciario;
+       margin: $margin-general;
+       padding: $padding-especifico;
        
    
        &__responsive{
@@ -28,13 +28,14 @@
           width: 75%;
           margin-bottom: 4rem;
           margin-left: 6rem;
+           }
         }
 
            &__h2{
-            font-family: "$font-subtitulo";
+            font-family: $font-subtitulo;
         
            }
-        }
+        
     &__nav{
       
     }
@@ -42,7 +43,7 @@
     &__responsive2{
         width: 100%;
         &__parrafo{
-            font-family:"$font-texto";
+            font-family:$font-texto;
         }
     }
    }
@@ -51,9 +52,9 @@
 
    &__fieldset{
        &__legend{
-           font-family: "$font-titulo";
+           font-family: $font-titulo;
         &__h3{
-           font-family: "$font-subtitulo";
+           font-family: $font-subtitulo;
         }
        }
        &__formulario{

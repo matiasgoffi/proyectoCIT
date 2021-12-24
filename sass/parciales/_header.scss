@@ -1,13 +1,22 @@
+
 @import "./vars";
 
-
 .header{
+
+    
     
    
   
 
 
     &__nav{
+
+        background: rgb(231,241,255);
+background: -moz-linear-gradient(90deg, rgba(231,241,255,1) 36%, rgba(170,212,223,1) 57%, rgba(78,136,148,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(231,241,255,1) 36%, rgba(170,212,223,1) 57%, rgba(78,136,148,1) 100%);
+background: linear-gradient(90deg, rgba(231,241,255,1) 36%, rgba(170,212,223,1) 57%, rgba(78,136,148,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e7f1ff",endColorstr="#4e8894",GradientType=1);
+
         
     }
     &__button{}
