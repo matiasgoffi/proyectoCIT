@@ -1,6 +1,30 @@
 @import "./vars";
 
 @media (min-width: 768px){ 
+  
+  .main{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    margin: 0rem;
+    width: 100%;
+  }
+  
+  .main__section{ 
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+  
+    
+      width: 75%;
+ 
+    }
+    .main__fieldset{
+      display: flex;
+      display: inline-block;
+      justify-content: center;
+    }
+   
     .main__responsive { 
         width: 75%;
         margin-bottom: 4rem;
@@ -9,6 +33,9 @@
      .main__responsive2{
          width: 100% ;
      }
+
+    
+     
     }
 
     @media (max-width: 768px) {
