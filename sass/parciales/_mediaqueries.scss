@@ -10,3 +10,50 @@
          width: 100% ;
      }
     }
+
+    @media (max-width: 768px) {
+
+
+
+      .header__image {
+        display: flex;
+        display: inline-block; 
+        transform: scale(0.6);
+       
+     
+
+      }
+
+      .footer__image {
+        display: flex;
+        display: inline-block; 
+        transform: scale(0.6);
+       
+     
+
+      }
+    }
+
+    @media (max-width: 576px) {
+
+      .header__image {
+
+
+        display: flex;
+        display: block; 
+        transform: scale(0.4);
+      }
+
+      .header__image {
+
+
+        display: flex;
+        display: block; 
+        transform: scale(0.4);
+      }
+ 
+
+     
+
+
+    }

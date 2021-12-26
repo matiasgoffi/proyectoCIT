@@ -76,6 +76,8 @@
 
 .main__section__h2 {
   font-family: "Roboto", sans-serif;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .main__section__responsive2 {
@@ -84,6 +86,11 @@
 
 .main__section__responsive2__parrafo {
   font-family: "Libre Baskerville", serif;
+}
+
+.main__button {
+  display: block;
+  background-color: #3333e9;
 }
 
 .main__fieldset__legend {
@@ -102,6 +109,44 @@
   }
   .main__responsive2 {
     width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline-block;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  .footer__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline-block;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+}
+
+@media (max-width: 576px) {
+  .header__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: block;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .header__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: block;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
   }
 }
 /*# sourceMappingURL=main.css.map */
