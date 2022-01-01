@@ -1,4 +1,6 @@
 @import "./vars";
+@import "./variablesutilitarias";
+@import "./mixins";
 
 .main{
 
@@ -16,14 +18,81 @@ background-color: $color-secundario;
     
        padding: $padding-especifico;
    }
-
-   &__section {
+   &__section{
        background-color: $color-terciario;
-       margin: $margin-general;
-       padding: $padding-especifico;
+    margin: $margin-general;
+    padding: $padding-especifico;
+
+   }
+
+   &__sectioncitas {
+      
+    @extend .main__section;
+    
+   }
+    
+    &__labelcitas{
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+    @include background-label;
+        border: map-get($estiloslabels, borde);
+        margin: map-get($estiloslabels,  margin);
+        padding: map-get($estiloslabels , padding);
+    }
+    &__h4pagos{
+        @extend .main__h4contacto;
+      }
        
 
+    
+
+    
+
+
+      
+      &__sectioncontacto{
+      @extend .main__section;
+    
+
+      }
+      &__labelcontacto{
+        @extend .main__labelcitas;
+    @include background-label;
+    border: map-get($estiloslabels, borde);
+    margin: map-get($estiloslabels,  margin);
+    padding: map-get($estiloslabels , padding);
+    }
+        &__h4contacto{
+            font-weight:700;
+            color: rgb(0, 0, 0);
         }
+        &__h3contacto{
+            font-weight:bold;
+            color: rgb(0, 0, 0);
+
+        }
+        .telcontacto{
+            background: white;
+        }
+
+      &__sectionpagos{
+
+        @extend .main__section;
+      }        
+     
+      &__labelpagos{
+          @extend .main__labelcitas;
+          @include background-label;
+          border: map-get($estiloslabels, borde);
+          margin: map-get($estiloslabels,  margin);
+          padding: map-get($estiloslabels , padding);
+    
+     }
+    &__h4pagos{
+      @extend .main__h4contacto;
+    }
+     
+ 
 
            &__h2{
          font-family: $font-subtitulo;
@@ -36,6 +105,7 @@ background-color: $color-secundario;
         
     &__nav{
       
+      
     }
     &__article{}
 
@@ -45,6 +115,22 @@ background-color: $color-secundario;
        display: inline-block;
        background-color: rgb(51, 51, 233);  
    }  
+ &__button--azul{
+     background-color: $azul;
+ }
+ &__button--gris{
+     background-color: $gris;
+ }
+&__button--verde{
+    background-color: $verde;
+}
+&__button--amarillo{
+    background-color: $amarillo
+    ;
+}
+
+
+   
 
 
         

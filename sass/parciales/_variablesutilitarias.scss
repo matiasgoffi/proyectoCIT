@@ -1,0 +1,49 @@
+
+
+
+$azul: rgb(34, 44, 180);
+$verde: rgb(36, 167, 86);
+$amarillo: rgb(200, 190, 42);
+$gris: rgb(136, 136, 136);
+
+
+$coloresbotones: (
+
+     "azul": $azul,
+     "verde": $verde,
+     "amarillo": $amarillo,
+     "gris": $gris
+
+);
+
+@each $name, $color in $coloresbotones {
+
+.main__button--#{$name} {
+    background-color: $color;
+    
+}
+
+
+
+    
+}
+
+
+
+
+$margin: 0.2rem;
+$padding: 0.2rem;
+$font: 'Libre Baskerville', serif;
+$colortexto: rgb(246, 246, 246);
+$border: white 3px groove; 
+
+
+$estiloslabels: (
+   "margin": $margin,
+   "padding": $padding,
+   "font": $font,
+   "colortexto": $colortexto,
+   "borde": $border
+); 
+
+   
