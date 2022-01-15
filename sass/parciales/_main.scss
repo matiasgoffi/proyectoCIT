@@ -6,6 +6,26 @@
 
 background-color: $color-secundario;
    
+
+   &__iconos{
+       display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: flex-end;
+    margin: $margin-especifico;
+
+}
+&__icono{
+    display: flex;
+    display: inline-block;
+    padding: 0.4rem;
+    color: rgb(42, 42, 87);
+    
+    
+  
+  
+}
+
    &__h1{ 
     align-items: center;
     display: flex;
@@ -17,13 +37,49 @@ background-color: $color-secundario;
    &__carousel{ 
     
        padding: $padding-especifico;
+    
    }
+
+   .contenedoritemcarrusel{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+   }
+   .textocarrusel{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    width: 80%;
+    line-height: 2rem;
+    opacity: 85%;
+   margin: 1rem;
+   padding: 0.3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-family: $font-subtitulo;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: $color-backgroundtextimg;
+    color: rgb(255, 234, 234);
+    border-radius: 0.5rem;
+    font-style: oblique;
+
+    
+    
+   }
+
+  
+
    &__section{
        background-color: $color-terciario;
     margin: $margin-general;
     padding: $padding-especifico;
-
-   }
+    color: rgb(246, 232, 232);
+ }
 
    &__sectioncitas {
       
@@ -52,6 +108,10 @@ background-color: $color-secundario;
       
       &__sectioncontacto{
       @extend .main__section;
+      display: flex;
+    justify-content: center;
+   
+      
     
 
       }
@@ -64,15 +124,37 @@ background-color: $color-secundario;
     }
         &__h4contacto{
             font-weight:700;
-            color: rgb(0, 0, 0);
+            color: rgb(221, 174, 174);
         }
         &__h3contacto{
             font-weight:bold;
-            color: rgb(0, 0, 0);
+            color: rgb(221, 174, 174);
 
         }
         .telcontacto{
-            background: white;
+
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background: $color-terciario;
+            color: $color-primario;
+            font-family: $font-texto;
+            font-size: 1rem;
+           
+            
+           
+        }
+
+
+    
+
+        .imagencontacto{
+            display:flex;
+            
+            width:100%;
+            height:25%;
+        
+        
         }
 
       &__sectionpagos{
@@ -98,23 +180,24 @@ background-color: $color-secundario;
          font-family: $font-subtitulo;
          font-weight: bold ;
          transform: rotate(360deg);
+         color: rgb(34, 112, 202);
            
         
         
            }
         
-    &__nav{
-      
-      
-    }
-    &__article{}
 
    
 
    &__button{
+       display: flex;
        display: inline-block;
-       background-color: rgb(51, 51, 233);  
+       align-content: center;
+       margin-top: 1rem;
+     
    }  
+   
+   
  &__button--azul{
      background-color: $azul;
  }
@@ -139,23 +222,14 @@ background-color: $color-secundario;
    
 
    &__fieldset{
+   
        &__legend{
            font-family: $font-titulo;
         &__h3{
            font-family: $font-subtitulo;
         }
        }
-       &__formulario{
-
-           &__label{}
-           &__input{}
-           &__h4{}
-           &__textarea{}
-           &__checkbox{}
-       }
-      
-
-   }
+    }
    &__container{ 
 
    }
@@ -163,16 +237,80 @@ background-color: $color-secundario;
        display: flex;
        display: inline-block;
        justify-content: center;
-      
-       
    }
+
+ 
+   
+.h2terapias{
+    display: flex;
+    justify-content: center;
+    font-family: $font-subtitulo;
+    font-style: italic;
+    background: rgb(224, 175, 224);
+}
+.textoterapias{
+    display: flex;
+    justify-content: center;
+    font-family: $font-texto;
+    
+}
+.imagenterapias{
+    display: flex;
+    width: 75%;
+    height: 50%;
+    border-radius: 100%;
+    border-style:groove;
+    
+
+}
+.contenedorimagenterapias{
+    display: flex;
+    justify-content: center;
+    padding: $padding-especifico;
+    
+    
 }
 
+.botonterapia{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.fraseaboutus{
+    font-style: oblique;
+    font-size: 1.5rem;
+}
+
+.imgtcc{
+    display:flex;
+            
+    width:100%;
+    height:100%;
+   
+}
+.accordion-body{
+    font-family: $font-texto;
+    color: black;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+   
+
     
 
 
 
-
-
     
-        
+
+ 
