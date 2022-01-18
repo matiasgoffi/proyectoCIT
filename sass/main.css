@@ -16,11 +16,25 @@
 }
 
 .footer__nav {
-  background: #e7f1ff;
-  background: radial-gradient(circle, #e7f1ff 36%, #aad4df 57%, #4e8894 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e7f1ff",endColorstr="#4e8894",GradientType=1);
   padding: 1rem;
-  background-color: transparent;
+}
+
+.footer__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  margin: 1rem;
+}
+
+.footer__item {
+  display: inline;
+  list-style: none;
+  margin: 0.8rem;
+}
+
+.footer__link {
+  color: #141414;
 }
 
 .header__nav {
@@ -79,6 +93,10 @@
   color: #2a2a57;
 }
 
+.main .iconolinkeable {
+  color: #281757;
+}
+
 .main__h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -92,6 +110,14 @@
   padding: 1rem;
   margin-top: 1rem;
   background-size: 15px;
+}
+
+.main__h3 {
+  color: #ddaeae;
+}
+
+.main__h4 {
+  color: #ddaeae;
 }
 
 .main__carousel {
@@ -454,6 +480,9 @@
   .footer__image {
     -webkit-transform: scale(0.4);
             transform: scale(0.4);
+  }
+  .footer__item {
+    display: block;
   }
 }
 

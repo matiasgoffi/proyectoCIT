@@ -25,6 +25,9 @@ background-color: $color-secundario;
   
   
 }
+.iconolinkeable{
+    color: $color-terciario;
+}
 
    &__h1{ 
     align-items: center;
@@ -33,6 +36,12 @@ background-color: $color-secundario;
     padding: $padding-especifico;
     margin-top: $margin-especifico;
     background-size: 15px;
+   }
+   &__h3{
+    color: rgb(221, 174, 174);
+   }
+   &__h4{
+    color: rgb(221, 174, 174);
    }
    &__carousel{ 
     
