@@ -75,7 +75,7 @@
 
         <main class="main">
 
-          <div class="container-fluid  main__subcontainer">
+          <div class="container-fluid">
             <ul class="main__iconos">
          <li class="main__icono"> 
             <a  class="iconolinkeable" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp " viewBox="0 0 16 16">
@@ -95,70 +95,77 @@
          </ul>
              </div>  
 
-          <div class="container-fluid mt-5 mb-5 main__subcontainer">
+          <div class="container-fluid mt-5 mb-5">
             <h1 class="main__h1"  data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500">Complete el formulario de Pago</h1> 
             </div>
             <hr>
+            
+            
             <section class="main__sectionpagos">
                 
              
                    <fieldset class="main__fieldset">
-                    <legend class="main__legend"><h4 class="main__h4pagos">Formulario de Pago</h4></legend>
+                    <legend class="main__legend">
+                      <h4 class="main__h4pagos">Formulario de Pago</h4></legend>
                  <form class="pagosformulario" action="#" method="GET">
                    <br>
                    <br>
                    
-                   <div class="container main__container">
-                     <div class= "main__subcontainer"><label class="main__labelpagos"for="userName">Nombre y Apellido:</label>
-                  <br><br>
-                      <input class="main__input"type="text" name="user-name" id="userName" placeholder="Nombre y Apellido">
+                   <div class="container">
+                    <div class="row">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label main__labelcontacto">Nombre y Apellido</label>
+                        <input type="email" class="form-control main__input" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+                      </div>
+                    <br>
+                  
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label main__labelcontacto">Teléfono de Contacto</label>
+                      <input type="email" class="form-control main__input" id="exampleFormControlInput1" placeholder="1122334455">
+                    </div>
+                    <br>
+                  
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label main__labelcontacto">E-mail</label>
+                      <input type="email" class="form-control main__input" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
                   </div>
-                   <br>
-                   <br>
-                   <div class="main__subcontainer"> <label class="main__labelpagos" for="email">Ingerese su email:</label>
-                  <br><br>
-                    <input class="main__input"type="email" name="user-email" id="email" placeholder="Correo Eletrónico">
-                   </div>
-                   <br>
-                   <br>
-                   <div class="main__subcontainer"> <label class="main__labelpagos"for="telcontact">Teléfono de contacto</label>
-                  <br><br>
-                    <input class="main__input"type="number" name="user-telephone" id="telcontact" placeholder="ingrese su número">
-                   </div>
+    
 
                   <br>
                   <br>
-                 <div class="main__subcontainer"> 
+                 <div class="container"> 
+                   <div class="row">
                     <h4 class="main__h4pagos">Tipo de Tarjeta</h4>
-                    <select name="tarjeta">
+                    <div class="container-fluid"><select name="tarjeta">
 
                         <option>Crédito</option>
                         
                         <option>Débito</option>
                         
-
-                        
-                        </select>
-                       
-                </div>
+                      </select>
+                      </div>
+                      
                 <br><br>
-                <div class="main__subcontainer">
+                <div class="container">
                         <label class="main__labelpagos" for="cardNumber">Número de tarjeta</label>
-                    <br><br>
+                    <br>
                         <input class="main__input"type="number" id="cardNumber" placeholder="xxxxxxxx">
                 </div>
                 <br>
                 <br>
-                <div class="main__subcontainer">
+                <br>
+                <div class="container">
                     <label class="main__labelpagos" for="cvv">Código de seguridad</label>
-                   <br><br>
+                   <br>
                     <input  class="main__input"type="text" id="cvv" placeholder="***">
                 </div>
                 <br>
                 <br>
-                <div class="main__subcontainer main__labelpagos">
+                <br>
+                <div class="container main__labelpagos">
                     <label>Fecha Caducidad Tarjeta</label>
                     <select>
                         <option value="01">Enero</option>
@@ -187,7 +194,7 @@
                 <br>
         
               
-              <div class="main__subcontainer">
+              <div class="container contenedorBotones">
                <button type="submit" class="btn btn-primary mb-3 input button main__button main__button--gris">Confirmar Pago</button>
                 <button type="reset" class="btn btn-primary mb-3 input button main__button main__button--gris">Borrar</button> 
 
@@ -196,6 +203,7 @@
                       
 
 
+              </div>
               </div>
      
      
@@ -216,11 +224,11 @@
         </main>
        
         <footer class="footer">
-          <nav class="navbar navbar-light bg-light">
+          <nav class="navbar">
             <div class="container-fluid justify-content-center">
               <a class="navbar-brand" href="#">
                     <img src="../Imagenes/CENTRO TERAPÉUTICO.png" alt="" width="100" height="100" class="d-inline-block align-text-center">
-                    <span class="text-muted">© 2022 Company, Inc</span>
+                    <span class="text-muted">© 2022 Company, Inc.</span>
               </a>
               <ul class="footer_ul">
                 <li class="footer__item">

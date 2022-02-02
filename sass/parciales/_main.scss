@@ -5,6 +5,12 @@
 .main{
 
 background-color: $color-secundario;
+
+  &__nav{
+    background-color: rgb(222, 222, 226);
+    list-style:none;
+    
+  }
    
 
    &__iconos{
@@ -36,13 +42,40 @@ background-color: $color-secundario;
     padding: $padding-especifico;
     margin-top: $margin-especifico;
     background-size: 15px;
+    background: rgb(244,244,244);
+    background: rgb(244,244,244);
+    background: rgb(244,244,244);
+    background: -moz-linear-gradient(90deg, rgba(244,244,244,1) 12%, rgba(249,209,240,1) 25%, rgba(255,110,254,0.48783263305322133) 70%);
+    background: -webkit-linear-gradient(90deg, rgba(244,244,244,1) 12%, rgba(249,209,240,1) 25%, rgba(255,110,254,0.48783263305322133) 70%);
+    background: linear-gradient(90deg, rgba(244,244,244,1) 12%, rgba(249,209,240,1) 25%, rgba(255,110,254,0.48783263305322133) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#ff6efe",GradientType=1);
    }
-   &__h3{
+  
+  
+  
+   &__h2{
+    font-family: $font-subtitulo;
+    font-weight: bold ;
+    transform: rotate(360deg);
+    color: rgb(21, 31, 39);
+    background: rgb(207,214,249);
+    background: -moz-linear-gradient(90deg, rgba(207,214,249,0.6082808123249299) 12%, rgba(192,198,233,0.6446953781512605) 20%, rgba(60,60,115,0.6530987394957983) 62%);
+    background: -webkit-linear-gradient(90deg, rgba(207,214,249,0.6082808123249299) 12%, rgba(192,198,233,0.6446953781512605) 20%, rgba(60,60,115,0.6530987394957983) 62%);
+    background: linear-gradient(90deg, rgba(207,214,249,0.6082808123249299) 12%, rgba(192,198,233,0.6446953781512605) 20%, rgba(60,60,115,0.6530987394957983) 62%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfd6f9",endColorstr="#3c3c73",GradientType=1);
+
+    }
+  
+    &__h3{
     color: rgb(221, 174, 174);
+    font-weight:bold;
+   
    }
+   
    &__h4{
     color: rgb(221, 174, 174);
    }
+   
    &__carousel{ 
     
        padding: $padding-especifico;
@@ -107,6 +140,12 @@ background-color: $color-secundario;
     &__h4pagos{
         @extend .main__h4contacto;
       }
+
+
+
+      &__input{
+          background-color:rgb(204, 204, 226) ;
+      }
        
 
     
@@ -140,17 +179,27 @@ background-color: $color-secundario;
             color: rgb(221, 174, 174);
 
         }
+     
         .telcontacto{
 
             display: flex;
+            
             justify-content: center;
             align-content: center;
             background: $color-terciario;
             color: $color-primario;
             font-family: $font-texto;
             font-size: 1rem;
+            background-color: rgb(68, 68, 149);
            
             
+           
+        }
+
+        .contenedorBotones{
+            display: flex;
+    
+            justify-content: center;
            
         }
 
@@ -185,15 +234,7 @@ background-color: $color-secundario;
      
  
 
-           &__h2{
-         font-family: $font-subtitulo;
-         font-weight: bold ;
-         transform: rotate(360deg);
-         color: rgb(34, 112, 202);
-           
-        
-        
-           }
+     
         
 
    
@@ -239,9 +280,7 @@ background-color: $color-secundario;
         }
        }
     }
-   &__container{ 
 
-   }
    &__subcontainer{
        display: flex;
        display: inline-block;
@@ -257,10 +296,11 @@ background-color: $color-secundario;
     font-style: italic;
     background: rgb(224, 175, 224);
 }
-.textoterapias{
+.textoterapia{
     display: flex;
     justify-content: center;
     font-family: $font-texto;
+    font-size: 1 rem;
     
 }
 .imagenterapias{
@@ -298,10 +338,16 @@ background-color: $color-secundario;
     height:100%;
    
 }
+
+.accordion-button{
+    background-color: rgb(156, 156, 235);
+} 
 .accordion-body{
     font-family: $font-texto;
     color: black;
+    background-color: rgb(222, 222, 226);
 }
+
 
 
 }

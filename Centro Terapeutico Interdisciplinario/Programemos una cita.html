@@ -75,7 +75,7 @@
       
          <main class="main">
 
-          <div class="container-fluid  main__subcontainer">
+          <div class="container-fluid">
             <ul class="main__iconos">
          <li class="main__icono"> 
             <a  class="iconolinkeable" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp " viewBox="0 0 16 16">
@@ -95,10 +95,10 @@
          </ul>
              </div>  
 
-          <div class="container-fluid mt-5 mb-5 main__subcontainer">
+          <div class="container-fluid mt-5 mb-5">
             <h1 class="main__h1"  data-aos="fade-down"
               data-aos-easing="linear"
-              data-aos-duration="1500">Iniciar Terapia nunca fue  tan fácil <br>¡Hagamos una Cita!</h1> 
+              data-aos-duration="1500">Iniciar Terapia nunca fue  tan fácil, <br>¡Hagamos una Cita!</h1> 
             </div>
             <hr>
 
@@ -109,17 +109,19 @@
           
 
             <fieldset class="main__fieldset">
-              <legend class="main__legend"><h3 class="main__h3">Formulario de Cita</h3></legend>
+              <legend class="main__legend">
+                <h3 class="main__h3">Formulario de Cita</h3></legend>
                 <form  class="main__formulario" action="#" method="GET">
                     <br><br>
-                    <div class="container main__container">
-                    <div class="mb-3 main__subcontainer">
+                    <div class="container_fluid">
+                      <div class="row">
+                    <div>
                       <label for="exampleFormControlInput1" class="form-label main__label main__labelcitas">Nombre y Apellido</label>
                       <br>
                       <input type="text" class="form-control main__input" id="exampleFormControlInput1" placeholder="Nombre Apellido">
                     </div>
                     <br>
-                    <div class="mb-3 main__subcontainer">
+                    <div>
                       <label for="exampleFormControlInput1" class="form-label main__label main__labelcitas">DNI</label>
                       <br>
                       <input type="number" class="form-control main__input" id="exampleFormControlInput1" placeholder="35 XXX XX1">
@@ -127,7 +129,7 @@
                   <br>
 
                   
-                    <div class="mb-3 main__subcontainer">
+                    <div>
                       <label for="exampleFormControlInput1" class="form-label main__label main__labelcitas">Teléfono de Contacto</label>
                       <br>
 
@@ -135,18 +137,20 @@
                     </div>
                     <br>
                   
-                    <div class="mb-3 main__subcontainer">
+                    <div>
                       <label for="exampleFormControlInput1" class="form-label main__label main__labelcitas">E-mail</label>
                       <br>
                   
                       <input type="email" class="form-control main__input" id="exampleFormControlInput1" placeholder="name@example.com"> 
                     </div>
+                  </div>
                   
                     
                     <br>
                     <br>
                     
-                    <div class="container main__subcontainer">
+                    <div class="container">
+                      <div class="row">
                       <h4 class="main__h4">Seleccione el Tipo de Terapia:</h4>
                     <select class="form-select" aria-label="Default select example">
                       <option value="Niños"><a href="../Centro Terapeutico Interdisciplinario/Terapias.html">Niños</a></option>
@@ -158,6 +162,7 @@
 
 
                     </div>
+                  </div>
         
                         
                     
@@ -165,30 +170,35 @@
             
 
                <br><br>
-               <div class="container main__subcontainer">
+               <div class="container">
+                 <div class="row">
                <h4 class="main__h4">Consulte fechas disponibles:</h4>
-                    Selecciona la fecha deseada:
+                 <strong> Seleccioná la fecha deseada:</strong>
                 <input class="main__input"type="date" name="fecha" min="2021-11-25" max="2022-11-25" step="1" />
                 <br>
-                Selecciona la hora deseada:
+               <strong>Seleccioná la hora deseada:</strong>
                 <input class="main__input"type="time" name="hora" min="09:00" max="17:00" step="1800" />
               </div>
+            </div>
                 <br><br>
                
-                <div class="container main__subcontainer">
+                <div class="container">
+                  <div class="row">
                <h4 class="main__h4">¿Algún Comentario?:</4>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label main__label main__labelcitas"></label>
                   <textarea class="form-control main__textarea" id="exampleFormControlTextarea1" rows="6"></textarea>
                 </div>
                <br>
-               <div class="container main__subcontainer">
+               
+               <div class="container contenedorBotones">
                <button type="submit" class="btn btn-primary mb-3 input button main__button main__button--amarillo">Confirmar Cita</button>
                 <button type="reset" class="btn btn-primary mb-3 input button main__button main__button--amarillo">Borrar</button>
 
                </div>
             
               </div>
+            </div>
         
 
 
@@ -200,11 +210,11 @@
 
             </main>
             <footer class="footer">
-              <nav class="navbar navbar-light bg-light">
+              <nav class="navbar">
                 <div class="container-fluid justify-content-center">
                   <a class="navbar-brand" href="#">
                         <img src="../Imagenes/CENTRO TERAPÉUTICO.png" alt="" width="100" height="100" class="d-inline-block align-text-center">
-                        <span class="text-muted">© 2022 Company, Inc</span>
+                        <span class="text-muted">© 2022 Company, Inc.</span>
                   </a>
                   <ul class="footer_ul">
                     <li class="footer__item">

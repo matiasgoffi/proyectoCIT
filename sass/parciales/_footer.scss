@@ -3,39 +3,33 @@
 
 
 .footer{
-  
-  
 
+opacity: 90%;
+background-color: rgb(222, 222, 226);
 
-  padding: 0rem;
-  margin: 0rem;
  
-          align-items: center;
+
  
-          justify-content: space-between;
-
-
-&__nav{
-  
-
-
-    padding: 1rem;
-
-}
 &__ul{
   display: flex;
+  display: inline-block;
   justify-items: center;
-  margin: 1rem;
+   margin: 0.5rem;
 }
 &__item{
   display: inline;
   list-style: none;
-  margin: 0.8rem;
+  margin: 0.5rem;
+  font-size: small;
 
 }
 &__link{
-  color: rgb(20, 20, 20);
+  color: rgb(85, 85, 85);
 
 }
 
+
+
 }
+
+

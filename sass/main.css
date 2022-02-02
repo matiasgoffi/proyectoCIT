@@ -5,36 +5,28 @@
 }
 
 .footer {
-  padding: 0rem;
-  margin: 0rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.footer__nav {
-  padding: 1rem;
+  opacity: 90%;
+  background-color: #dedee2;
 }
 
 .footer__ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: inline-block;
   justify-items: center;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .footer__item {
   display: inline;
   list-style: none;
-  margin: 0.8rem;
+  margin: 0.5rem;
+  font-size: small;
 }
 
 .footer__link {
-  color: #141414;
+  color: #555555;
 }
 
 .header__nav {
@@ -69,6 +61,11 @@
 
 .main {
   background-color: #ed97f0;
+}
+
+.main__nav {
+  background-color: #dedee2;
+  list-style: none;
 }
 
 .main__iconos {
@@ -110,10 +107,29 @@
   padding: 1rem;
   margin-top: 1rem;
   background-size: 15px;
+  background: #f4f4f4;
+  background: #f4f4f4;
+  background: #f4f4f4;
+  background: -webkit-gradient(linear, left top, right top, color-stop(12%, #f4f4f4), color-stop(25%, #f9d1f0), color-stop(70%, rgba(255, 110, 254, 0.487833)));
+  background: linear-gradient(90deg, #f4f4f4 12%, #f9d1f0 25%, rgba(255, 110, 254, 0.487833) 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#ff6efe",GradientType=1);
+}
+
+.main__h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: #151f27;
+  background: #cfd6f9;
+  background: -webkit-gradient(linear, left top, right top, color-stop(12%, rgba(207, 214, 249, 0.608281)), color-stop(20%, rgba(192, 198, 233, 0.644695)), color-stop(62%, rgba(60, 60, 115, 0.653099)));
+  background: linear-gradient(90deg, rgba(207, 214, 249, 0.608281) 12%, rgba(192, 198, 233, 0.644695) 20%, rgba(60, 60, 115, 0.653099) 62%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfd6f9",endColorstr="#3c3c73",GradientType=1);
 }
 
 .main__h3 {
   color: #ddaeae;
+  font-weight: bold;
 }
 
 .main__h4 {
@@ -175,6 +191,10 @@
   padding: 0.2rem;
 }
 
+.main__input {
+  background-color: #cccce2;
+}
+
 .main__sectioncontacto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,6 +235,16 @@
   color: #e3f2fd;
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
+  background-color: #444495;
+}
+
+.main .contenedorBotones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main .imagencontacto {
@@ -231,14 +261,6 @@
   border: white 3px groove;
   margin: 0.2rem;
   padding: 0.2rem;
-}
-
-.main__h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  color: #2270ca;
 }
 
 .main__button {
@@ -297,7 +319,7 @@
   background: #e0afe0;
 }
 
-.main .textoterapias {
+.main .textoterapia {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,6 +327,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Libre Baskerville", serif;
+  font-size: 1 rem;
 }
 
 .main .imagenterapias {
@@ -350,9 +373,14 @@
   height: 100%;
 }
 
+.main .accordion-button {
+  background-color: #9c9ceb;
+}
+
 .main .accordion-body {
   font-family: "Libre Baskerville", serif;
   color: black;
+  background-color: #dedee2;
 }
 
 @media (min-width: 768px) {
