@@ -281,11 +281,7 @@ background-color: $color-secundario;
        }
     }
 
-   &__subcontainer{
-       display: flex;
-       display: inline-block;
-       justify-content: center;
-   }
+
 
  
    
@@ -303,6 +299,8 @@ background-color: $color-secundario;
     font-size: 1 rem;
     
 }
+
+
 .imagenterapias{
     display: flex;
     width: 75%;
